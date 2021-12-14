@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @andrito9755
+- 👋 Hi, I’m Anand Bhosle
 <!--- 👀 I’m interested in ... --->
 - 🌱 I’m currently learning lots of things and I don't want to share because I am very private person
 - 📫 How to reach me ... Telegram @Trial_NPC
