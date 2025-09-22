@@ -38,3 +38,5 @@ zsh terminal
     
         PS1=" ${EXIT_PROMPT}${TIME_PROMPT} ${DIR_PROMPT} ${GIT_PROMPT} ${BLUE}➜${RESET} "
     }
+
+    code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
