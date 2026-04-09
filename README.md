@@ -36,7 +36,7 @@ zsh terminal
         local TIME_PROMPT="${MAGENTA}%*${RESET}"  # current time
         local DIR_PROMPT="${CYAN}%~${RESET}"      # current dir
     
-        PS1=" ${EXIT_PROMPT}${TIME_PROMPT} ${DIR_PROMPT} ${GIT_PROMPT} ${BLUE}➜${RESET} "
+        PS1=" ${EXIT_PROMPT}${TIME_PROMPT} ${DIR_PROMPT} ${GIT_PROMPT}"$'\n'"${BLUE}➜${RESET} "
     }
 
     code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
